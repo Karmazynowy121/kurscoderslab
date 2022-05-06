@@ -1,3 +1,7 @@
+html,
+body {
+  height:100% ;
+}
 body {
   color: rgb(52, 58, 64);
   font-size: 15px;
@@ -75,15 +79,39 @@ body {
 .info-signature {
   width: 130px;
 }
-
+.info-contact {
+  display: flex;
+  align-items: center;
+margin-top: 15px;
+}
 
 .info-contact-btn {
   color: rgb(255, 255, 255);
   font-weight: 700;
   text-decoration: none;
   background-color: rgb(0, 163, 225);
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
 }
-
+.info-contact-btn img {
+  width: 22px; 
+  margin-right: 8px;
+}
 .info-contact-social {
   background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+.info-contact-social img {
+  height: 13px;
 }
